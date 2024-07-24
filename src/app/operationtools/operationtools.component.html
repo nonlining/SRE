@@ -1,0 +1,14 @@
+<h1>Operation Tools</h1>
+<div class="card">
+    <div class="card-head">Operation Tools</div>
+    <div class="card-body">
+        <div class="container">
+            <label for="options">Select an option:</label>
+            <select id="options" [(ngModel)]="selectedOption" (change)="onOptionSelected(selectedOption)">
+              <option *ngFor="let option of options" [value]="option">{{ option }}</option>
+            </select>                                    
+            <p>{{ item }} <button (click)="performAction(item)">Execute {{ item }}</button></p>
+            
+          </div>
+    </div>
+</div>

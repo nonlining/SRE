@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  div p {
+    cursor: pointer;
+    color: blue;
+  }
+  
+  div p:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    margin: 5px;
+  }
